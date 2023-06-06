@@ -288,7 +288,15 @@ const AddEditModal = ({
     birthdayRef,
     idNumberRef,
   } = refHooks;
-  const grade_level = ["daycare", 1, 2, 3, 4, 5, 6];
+  const grade_level = [
+    "Daycare",
+    "Grade 1",
+    "Grade 2",
+    "Grade 3",
+    "Grade 4",
+    "Grade 5",
+    "Grade 6",
+  ];
   return (
     <Modal>
       <div
