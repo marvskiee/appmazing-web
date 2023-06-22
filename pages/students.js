@@ -289,7 +289,7 @@ const AddEditModal = ({
     idNumberRef,
   } = refHooks;
   const grade_level = [
-    "Daycare",
+    "Kinder",
     "Grade 1",
     "Grade 2",
     "Grade 3",
