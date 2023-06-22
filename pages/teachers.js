@@ -271,7 +271,7 @@ const AddEditModal = ({
 }) => {
   const { firstNameRef, lastNameRef, birthdayRef, genderRef, idNumberRef } =
     refHooks;
-  const grade_level = ["daycare", 1, 2, 3, 4, 5, 6];
+  const grade_level = ["kinder", 1, 2, 3, 4, 5, 6];
   return (
     <Modal>
       <div
