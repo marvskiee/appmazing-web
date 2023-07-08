@@ -68,7 +68,7 @@ export default async (req, res) => {
               };
             }
           }
-          response({ res, status_code: 400, success: false, error: newError });
+          return response({ res, status_code: 400, success: false, error: newError });
         }
       }
 
