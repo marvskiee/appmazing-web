@@ -84,7 +84,7 @@ const Students = () => {
         <Table striped={true} className="font-work">
           <Table.Head className="text-center bg-cstmgray text-white">
             {tableHeaders.map((header, index) => (
-              <Table.HeadCell colspan={header == "Action" ? 3 : 1} key={index}>
+              <Table.HeadCell colSpan={header == "Action" ? 3 : 1} key={index}>
                 {header}
               </Table.HeadCell>
             ))}
